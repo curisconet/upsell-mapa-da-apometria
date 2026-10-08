@@ -5,7 +5,9 @@ document.querySelector('[data-interest]').addEventListener('click', () => {
   previewDialog.showModal();
 });
 document.querySelector('[data-decline]').addEventListener('click', () => {
-  dialogMessage.textContent = 'Este é o botão para seguir sem aceitar o upsell. O destino será definido quando configurarmos o fluxo da oferta.';
+  dialogMessage.textContent = document.body.classList.contains('downsell')
+    ? 'Este é o botão para recusar a oferta final. O destino será definido quando configurarmos o fluxo de compra.'
+    : 'Este é o botão para seguir sem aceitar o upsell. O destino será definido quando configurarmos o fluxo da oferta.';
   previewDialog.showModal();
 });
 document.querySelectorAll('.dialog-close, .dialog-dismiss').forEach(button => {
@@ -18,6 +20,7 @@ previewDialog.addEventListener('click', event => {
 document.querySelector('#year').textContent = new Date().getFullYear();
 
 const pagesTrack = document.querySelector('.pages-track');
+if (pagesTrack) {
 const pageSlides = Array.from(pagesTrack.querySelectorAll('.page-slide'));
 const pageDots = Array.from(document.querySelectorAll('[data-page]'));
 const pageStatus = document.querySelector('.carousel-status');
@@ -54,3 +57,4 @@ pagesTrack.addEventListener('scroll', () => {
   carouselScrollTimer = setTimeout(updatePage, 100);
 }, { passive: true });
 window.addEventListener('resize', updatePage);
+}
