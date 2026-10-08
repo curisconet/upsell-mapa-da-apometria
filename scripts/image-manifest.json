@@ -1,0 +1,247 @@
+{
+  "colecao-apometria": {
+    "originalBytes": 3563307,
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/colecao-apometria-480-36f45986f8.webp",
+        "bytes": 65204
+      },
+      {
+        "width": 768,
+        "path": "assets/colecao-apometria-768-2b8d67c3b4.webp",
+        "bytes": 155314
+      },
+      {
+        "width": 1280,
+        "path": "assets/colecao-apometria-1280-edad27b8e4.webp",
+        "bytes": 373920
+      }
+    ]
+  },
+  "manual-01": {
+    "originalBytes": 2712907,
+    "variants": [
+      {
+        "width": 240,
+        "path": "assets/manual-01-240-bced9b3f6e.webp",
+        "bytes": 21814
+      },
+      {
+        "width": 480,
+        "path": "assets/manual-01-480-eddcc63d60.webp",
+        "bytes": 69060
+      },
+      {
+        "width": 690,
+        "path": "assets/manual-01-690-9a19dcedf5.webp",
+        "bytes": 123248
+      }
+    ]
+  },
+  "manual-02": {
+    "originalBytes": 2798584,
+    "variants": [
+      {
+        "width": 240,
+        "path": "assets/manual-02-240-5d208c7488.webp",
+        "bytes": 25448
+      },
+      {
+        "width": 480,
+        "path": "assets/manual-02-480-a7011eadf1.webp",
+        "bytes": 82594
+      },
+      {
+        "width": 690,
+        "path": "assets/manual-02-690-bdda6c5bc1.webp",
+        "bytes": 150604
+      }
+    ]
+  },
+  "manual-03": {
+    "originalBytes": 3049145,
+    "variants": [
+      {
+        "width": 240,
+        "path": "assets/manual-03-240-705a9d3f50.webp",
+        "bytes": 31110
+      },
+      {
+        "width": 480,
+        "path": "assets/manual-03-480-37da1bd000.webp",
+        "bytes": 105252
+      },
+      {
+        "width": 690,
+        "path": "assets/manual-03-690-18c425c64c.webp",
+        "bytes": 191702
+      }
+    ]
+  },
+  "manual-04": {
+    "originalBytes": 3025987,
+    "variants": [
+      {
+        "width": 240,
+        "path": "assets/manual-04-240-d38cab5aac.webp",
+        "bytes": 29950
+      },
+      {
+        "width": 480,
+        "path": "assets/manual-04-480-61a1530dc0.webp",
+        "bytes": 102348
+      },
+      {
+        "width": 690,
+        "path": "assets/manual-04-690-b1acbc9781.webp",
+        "bytes": 188698
+      }
+    ]
+  },
+  "manual-05": {
+    "originalBytes": 3078359,
+    "variants": [
+      {
+        "width": 240,
+        "path": "assets/manual-05-240-b23cd7df5a.webp",
+        "bytes": 26456
+      },
+      {
+        "width": 480,
+        "path": "assets/manual-05-480-5d8ff8dfc7.webp",
+        "bytes": 88698
+      },
+      {
+        "width": 690,
+        "path": "assets/manual-05-690-2d682344f1.webp",
+        "bytes": 166202
+      }
+    ]
+  },
+  "pagina-01": {
+    "originalBytes": 4282057,
+    "variants": [
+      {
+        "width": 360,
+        "path": "assets/pagina-01-360-2ec7e2d18a.webp",
+        "bytes": 65988
+      },
+      {
+        "width": 640,
+        "path": "assets/pagina-01-640-e428e91011.webp",
+        "bytes": 166762
+      },
+      {
+        "width": 960,
+        "path": "assets/pagina-01-960-42a91b0cda.webp",
+        "bytes": 300802
+      },
+      {
+        "width": 1200,
+        "path": "assets/pagina-01-1200-f16dcd5df1.webp",
+        "bytes": 407704
+      }
+    ]
+  },
+  "pagina-02": {
+    "originalBytes": 4239609,
+    "variants": [
+      {
+        "width": 360,
+        "path": "assets/pagina-02-360-4120391c40.webp",
+        "bytes": 63746
+      },
+      {
+        "width": 640,
+        "path": "assets/pagina-02-640-3e192055d6.webp",
+        "bytes": 159252
+      },
+      {
+        "width": 960,
+        "path": "assets/pagina-02-960-7f82b07441.webp",
+        "bytes": 285678
+      },
+      {
+        "width": 1200,
+        "path": "assets/pagina-02-1200-f8f598ada4.webp",
+        "bytes": 378368
+      }
+    ]
+  },
+  "pagina-03": {
+    "originalBytes": 4836037,
+    "variants": [
+      {
+        "width": 360,
+        "path": "assets/pagina-03-360-7c76b95968.webp",
+        "bytes": 83830
+      },
+      {
+        "width": 640,
+        "path": "assets/pagina-03-640-8a98154307.webp",
+        "bytes": 213836
+      },
+      {
+        "width": 960,
+        "path": "assets/pagina-03-960-30376d8771.webp",
+        "bytes": 379796
+      },
+      {
+        "width": 1200,
+        "path": "assets/pagina-03-1200-7aa06da1e4.webp",
+        "bytes": 506248
+      }
+    ]
+  },
+  "pagina-04": {
+    "originalBytes": 4763895,
+    "variants": [
+      {
+        "width": 360,
+        "path": "assets/pagina-04-360-0d2a802340.webp",
+        "bytes": 86876
+      },
+      {
+        "width": 640,
+        "path": "assets/pagina-04-640-5cab7905ba.webp",
+        "bytes": 229750
+      },
+      {
+        "width": 960,
+        "path": "assets/pagina-04-960-6913f88153.webp",
+        "bytes": 419602
+      },
+      {
+        "width": 1200,
+        "path": "assets/pagina-04-1200-7818d85e26.webp",
+        "bytes": 562894
+      }
+    ]
+  },
+  "pagina-05": {
+    "originalBytes": 5405062,
+    "variants": [
+      {
+        "width": 360,
+        "path": "assets/pagina-05-360-1d936a0573.webp",
+        "bytes": 90284
+      },
+      {
+        "width": 640,
+        "path": "assets/pagina-05-640-4efef7db3f.webp",
+        "bytes": 246564
+      },
+      {
+        "width": 960,
+        "path": "assets/pagina-05-960-7dfdedc58b.webp",
+        "bytes": 443770
+      },
+      {
+        "width": 1200,
+        "path": "assets/pagina-05-1200-d8412c39c8.webp",
+        "bytes": 598416
+      }
+    ]
+  }
+}

@@ -20,4 +20,13 @@ Paleta OKLCH e fontes reproduzem a referência: verde petróleo, creme, dourado,
 
 ## Vercel
 
-Projeto estático sem dependências de execução. Na importação do GitHub, selecionar **Other**, manter a raiz como diretório do projeto e deixar os comandos de build e instalação sem configuração. Não há necessidade de gerar um diretório de saída. O envio à branch `main` permite publicação automática quando a integração da Vercel estiver configurada.
+Projeto estático sem dependências de execução. A configuração `vercel.json` executa `npm run build` e publica `dist`. O envio à branch `main` permite publicação automática quando a integração da Vercel estiver configurada.
+
+## Otimizações de desempenho
+
+- Ambas as páginas usam WebP responsivo e fontes WOFF2 locais com `font-display: swap`.
+- A imagem principal tem prioridade alta; imagens abaixo do topo carregam sob demanda. As páginas 2 a 5 do carrossel recebem `src` apenas quando usadas.
+- O build incorpora o CSS ao HTML e gera um nome com hash para o JavaScript. Imagens e fontes com hash recebem cache de um ano; uma alteração de conteúdo gera outro endereço.
+- Os PNG originais permanecem preservados, mas não entram na publicação. As variantes maiores das 11 imagens somam 3.648.004 bytes, contra 41.754.949 bytes dos originais; a página usa variantes menores conforme a tela.
+- `scripts/optimize-images.py` gera derivados com Pillow a partir dos originais e registra tamanhos e caminhos em `scripts/image-manifest.json`. Ao regenerar, atualizar as referências dos HTML para os hashes novos.
+- Executar `npm run check` e `npm run build` antes de enviar. Para conferir o build local, definir `PREVIEW_DIST=1` e uma `PORT` alternativa ao executar `node preview.mjs`.
