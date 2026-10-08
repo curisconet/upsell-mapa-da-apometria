@@ -1,0 +1,10 @@
+{
+  "name": "upsell-mapa-da-apometria",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Página estática de upsell com a identidade visual do Mapa da Apometria",
+  "scripts": {
+    "dev": "node preview.mjs",
+    "check": "node --check script.js && node --check preview.mjs"
+  }
+}
