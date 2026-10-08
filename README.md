@@ -14,7 +14,7 @@ A página usa a copy fornecida pelo usuário para a coleção **Apometria na Pr�
 
 O upsell usa o script oficial remoto e a oferta 923i6vu enviada pelo usuário. O aceite é processado pela Cakto, com destino members_area; a recusa vai para /downsell pelo componente oficial, preservando o contexto do funil. O preço cobrado depende da configuração no painel Cakto; a página exibe R$ 37,90.
 
-O downsell de R$ 19,90 aguarda seu código próprio, ID e destinos gerados na plataforma. Os botões dele permanecem em prévia. Não reutilizar o ID do upsell. A conferência técnica não realiza cobranças; validar pagamento e entrega no fluxo de teste da plataforma.
+O downsell de R$ 19,90 usa a oferta 3dmcugz, tipo downsell, conforme código enviado pelo usuário. Aceite após processamento e recusa têm destino members_area. Cada página usa seu próprio ID; o valor cobrado é configurado na Cakto. A conferência técnica não realiza cobranças; validar pagamento e entrega no fluxo de teste da plataforma.
 
 ## Identidade visual
 

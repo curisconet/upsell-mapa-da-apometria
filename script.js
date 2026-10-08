@@ -1,22 +1,3 @@
-const previewDialog = document.querySelector('#preview-dialog');
-const dialogMessage = document.querySelector('#dialog-message');
-document.querySelector('[data-interest]')?.addEventListener('click', () => {
-  dialogMessage.textContent = 'O visual do botão está pronto. A compra ainda não está conectada a uma plataforma de pagamento.';
-  previewDialog.showModal();
-});
-document.querySelector('[data-decline]')?.addEventListener('click', () => {
-  dialogMessage.textContent = document.body.classList.contains('downsell')
-    ? 'Este é o botão para recusar a oferta final. O destino será definido quando configurarmos o fluxo de compra.'
-    : 'Este é o botão para seguir sem aceitar o upsell. O destino será definido quando configurarmos o fluxo da oferta.';
-  previewDialog.showModal();
-});
-document.querySelectorAll('.dialog-close, .dialog-dismiss').forEach(button => {
-  button.addEventListener('click', () => previewDialog.close());
-});
-previewDialog?.addEventListener('click', event => {
-  const bounds = previewDialog.getBoundingClientRect();
-  if (event.clientX < bounds.left || event.clientX > bounds.right || event.clientY < bounds.top || event.clientY > bounds.bottom) previewDialog.close();
-});
 document.querySelector('#year').textContent = new Date().getFullYear();
 
 const pagesTrack = document.querySelector('.pages-track');
