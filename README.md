@@ -10,9 +10,11 @@ Execute `npm run dev` e abra http://127.0.0.1:3000. Também é possível abrir `
 
 A página usa a copy fornecida pelo usuário para a coleção **Apometria na Prática**, com 5 manuais, preço original de R$ 97,00 e oferta de **R$ 37,90**. O preâmbulo editorial do arquivo recebido não faz parte da página. O mockup da coleção e as cinco capas foram copiados da pasta `../imagens` para `assets`, com numeração correspondente aos manuais. As cinco páginas de exemplo permanecem guardadas em `assets/pagina-01.png` a `assets/pagina-05.png` para uso posterior e não aparecem na página. As imagens do guia original não aparecem nesta versão.
 
-As informações de confirmação de pedido, cobrança em um clique, entrega imediata e condição exclusiva são textos da oferta enviada. Nesta etapa, nenhuma dessas operações está integrada ou validada: a página é uma prévia visual e os botões apenas abrem avisos.
+## Integração Cakto
 
-Os botões de aceitar e recusar abrem um aviso de prévia. Nenhuma compra, cobrança, redirecionamento ou integração está configurada. Não há pixels de rastreamento.
+O upsell usa o script oficial remoto e a oferta 923i6vu enviada pelo usuário. O aceite é processado pela Cakto, com destino members_area; a recusa vai para /downsell pelo componente oficial, preservando o contexto do funil. O preço cobrado depende da configuração no painel Cakto; a página exibe R$ 37,90.
+
+O downsell de R$ 19,90 aguarda seu código próprio, ID e destinos gerados na plataforma. Os botões dele permanecem em prévia. Não reutilizar o ID do upsell. A conferência técnica não realiza cobranças; validar pagamento e entrega no fluxo de teste da plataforma.
 
 ## Identidade visual
 

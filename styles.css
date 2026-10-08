@@ -158,3 +158,11 @@
 .page-caption{font-size:13px;font-weight:600;margin:15px 0 5px;line-height:1.6}.page-slide img:not([src]){background:var(--cream)}
 .eyebrow{color:#87651f}.dark .eyebrow{color:var(--gold)}.caption,.carousel-status{color:#58685e}.hero-note{color:#b9cdd0}.book-kicker{color:#c5d4d6}
 @media(max-width:600px){.manual-card,.questions-list li,.faq details,.pages-carousel{-webkit-backdrop-filter:none;backdrop-filter:none}}
+
+/* Componentes oficiais Cakto */
+cakto-upsell-buttons,cakto-upsell-accept,cakto-upsell-reject{display:block;width:100%}
+cakto-upsell-accept{min-height:84px}
+cakto-upsell-accept::part(button){box-sizing:border-box;width:100%;min-height:84px;padding:20px 24px;border:1px solid rgba(255,255,255,.3);border-radius:24px;font-family:inherit;font-size:15px;font-weight:700;line-height:1.6;text-align:center;white-space:normal;box-shadow:0 8px 24px rgba(0,0,0,.16)}
+cakto-upsell-reject{margin:24px auto 0;max-width:560px}
+cakto-upsell-reject::part(button){color:#d5e4e3;font-family:inherit;font-size:13px;line-height:1.8;text-align:center;padding:12px;border-radius:20px;white-space:normal}
+cakto-upsell-accept::part(button):focus-visible,cakto-upsell-reject::part(button):focus-visible{outline:3px solid #e7bc64;outline-offset:4px}
