@@ -38,3 +38,5 @@ Projeto estático sem dependências de execução. A configuração `vercel.json
 A rota `/pagina-direta` publica `pagina-direta.html`, cópia visual da página de upsell, com CSS e JS independentes (`styles-pagina-direta.css` e `script-pagina-direta.js`). Não contém integração de pagamento, componentes Cakto ou IDs de oferta. Os botões apenas exibem aviso de destino pendente. Imagens e fontes são compartilhadas; para alterá-las, criar novos derivados. As páginas originais continuam com suas integrações.
 
 A Página direta oferece os cinco manuais por R$ 19,90 para divulgação na área de membros. Cabeçalho e botão foram adaptados para oferta direta. O bloco de condição exclusiva de checkout herdado da copy original permanece pendente de revisão pelo usuário.
+
+O botão de compra da Página direta abre o checkout normal https://pay.cakto.com.br/5bk6cuo, fornecido pelo usuário, na mesma aba. Não há processamento de upsell nesta página. O destino de recusa permanece pendente.

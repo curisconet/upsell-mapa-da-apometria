@@ -50,6 +50,6 @@ pagesTrack.addEventListener('scroll', () => {
 window.addEventListener('resize', updatePage);
 }
 
-for (const button of document.querySelectorAll('[data-direct-purchase], [data-direct-decline]')) {
+for (const button of document.querySelectorAll('[data-direct-decline]')) {
   button.addEventListener('click', () => { document.querySelector('#direct-button-status').textContent = 'Este botão é uma prévia visual. O destino ainda será configurado.'; });
 }
