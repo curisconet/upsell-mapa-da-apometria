@@ -33,6 +33,6 @@ Projeto estático sem dependências de execução. A configuração `vercel.json
 - `scripts/optimize-images.py` gera derivados com Pillow a partir dos originais e registra tamanhos e caminhos em `scripts/image-manifest.json`. Ao regenerar, atualizar as referências dos HTML para os hashes novos.
 - Executar `npm run check` e `npm run build` antes de enviar. Para conferir o build local, definir `PREVIEW_DIST=1` e uma `PORT` alternativa ao executar `node preview.mjs`.
 
-## Segunda versão do upsell
+## Página direta
 
-A rota `/upsell-v2` publica `upsell-v2.html`, cópia inicial do upsell de R$ 37,90 com a mesma integração Cakto. CSS e JavaScript independentes em `styles-upsell-v2.css` e `script-upsell-v2.js`; imagens e fontes são compartilhadas. Para modificar esta versão, editar apenas os três arquivos próprios. Não alterar mídias compartilhadas em lugar: gerar novos arquivos com hash. A recusa continua para `/downsell`.
+A rota `/pagina-direta` publica `pagina-direta.html`, cópia visual da página de upsell, com CSS e JS independentes (`styles-pagina-direta.css` e `script-pagina-direta.js`). Não contém integração de pagamento, componentes Cakto ou IDs de oferta. Os botões apenas exibem aviso de destino pendente. Imagens e fontes são compartilhadas; para alterá-las, criar novos derivados. As páginas originais continuam com suas integrações.

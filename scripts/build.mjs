@@ -7,7 +7,7 @@ const output = path.join(root, 'dist');
 await mkdir(path.join(output, 'assets/fonts'), { recursive: true });
 const variants = [
   { pages: ['index.html', 'downsell.html'], css: 'styles.css', script: 'script.js', prefix: 'script' },
-  { pages: ['upsell-v2.html'], css: 'styles-upsell-v2.css', script: 'script-upsell-v2.js', prefix: 'script-upsell-v2' }
+  { pages: ['pagina-direta.html'], css: 'styles-pagina-direta.css', script: 'script-pagina-direta.js', prefix: 'script-pagina-direta' }
 ];
 for (const variant of variants) {
   const css = (await readFile(path.join(root, variant.css), 'utf8')).replace(/\/\*[\s\S]*?\*\//g, '').replace(/\s+/g, ' ').trim();
