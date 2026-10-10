@@ -32,3 +32,7 @@ Projeto estático sem dependências de execução. A configuração `vercel.json
 - Os PNG originais permanecem preservados, mas não entram na publicação. As variantes maiores das 11 imagens somam 3.648.004 bytes, contra 41.754.949 bytes dos originais; a página usa variantes menores conforme a tela.
 - `scripts/optimize-images.py` gera derivados com Pillow a partir dos originais e registra tamanhos e caminhos em `scripts/image-manifest.json`. Ao regenerar, atualizar as referências dos HTML para os hashes novos.
 - Executar `npm run check` e `npm run build` antes de enviar. Para conferir o build local, definir `PREVIEW_DIST=1` e uma `PORT` alternativa ao executar `node preview.mjs`.
+
+## Segunda versão do upsell
+
+A rota `/upsell-v2` publica `upsell-v2.html`, cópia inicial do upsell de R$ 37,90 com a mesma integração Cakto. CSS e JavaScript independentes em `styles-upsell-v2.css` e `script-upsell-v2.js`; imagens e fontes são compartilhadas. Para modificar esta versão, editar apenas os três arquivos próprios. Não alterar mídias compartilhadas em lugar: gerar novos arquivos com hash. A recusa continua para `/downsell`.

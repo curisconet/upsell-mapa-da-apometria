@@ -6,6 +6,6 @@
   "scripts": {
     "build": "node scripts/build.mjs",
     "dev": "node preview.mjs",
-    "check": "node --check script.js && node --check preview.mjs"
+    "check": "node --check script.js && node --check script-upsell-v2.js && node --check preview.mjs && node --check scripts/build.mjs"
   }
 }

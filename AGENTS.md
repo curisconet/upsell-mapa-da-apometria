@@ -7,3 +7,5 @@
 - O upsell usa os componentes oficiais Cakto, oferta `923i6vu`: aceite com destino `members_area` e recusa para `/downsell`. Não substituir o pagamento por redirecionamento direto. O downsell usa a oferta `3dmcugz`, tipo `downsell`, com aceite e recusa para `members_area`.
 - Capturas `previa*.jpg` são registros locais de conferência e ficam fora do Git.
 - Após edições, executar `npm run check` e `npm run build`. A Vercel publica `dist`, com CSS incorporado ao HTML, fontes locais e imagens WebP responsivas. Manter as imagens originais para preservação, mas não referenciá-las na página nem copiá-las para `dist`. Novos arquivos de mídia devem ter nomes com hash para cache seguro.
+
+- A cópia independente do upsell fica em `/upsell-v2`: editar `upsell-v2.html`, `styles-upsell-v2.css` e `script-upsell-v2.js` para alterações desta versão, preservando os arquivos das páginas originais. Mídias são compartilhadas: criar novos derivados para mudanças de imagens.
