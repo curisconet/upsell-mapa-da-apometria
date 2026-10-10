@@ -9,3 +9,4 @@
 - Após edições, executar `npm run check` e `npm run build`. A Vercel publica `dist`, com CSS incorporado ao HTML, fontes locais e imagens WebP responsivas. Manter as imagens originais para preservação, mas não referenciá-las na página nem copiá-las para `dist`. Novos arquivos de mídia devem ter nomes com hash para cache seguro.
 
 - A Página direta fica em `/pagina-direta`: editar somente `pagina-direta.html`, `styles-pagina-direta.css` e `script-pagina-direta.js`. É uma cópia visual SEM integração Cakto, IDs de oferta ou cobrança. Botões aguardam configuração. Preservar as páginas originais e criar novos derivados para mudanças nas mídias compartilhadas.
+- A Página direta oferece os 5 manuais por R$ 19,90, com apresentação de venda direta na área de membros, sem faixa de urgência e selo de pós-compra. O bloco herdado de checkout exclusivo aguarda revisão do usuário.
